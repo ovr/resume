@@ -544,8 +544,27 @@ icon.large {
     content: "\e634";
 }
 
-	</style>
+		.google-hover:hover .g {
+			color: blue;
+		}
 
+		.google-hover:hover .o1, .google-hover:hover .e {
+			color: red;
+		}
+
+		.google-hover:hover .o2 {
+			color: yellow;
+		}
+
+		.google-hover:hover .l {
+			color: green;
+		}
+
+		.google-hover:hover .bg {
+			background-color: black;
+			color: black;
+		}
+	</style>
 	</head>
 	<body>
 
@@ -555,7 +574,9 @@ icon.large {
 					<img class="avatar" src="http://cs417629.vk.me/v417629163/dfb2/zlCdi34xpg0.jpg"/>
 				</div>
 				<div class="col-xs-9 col-sm-8">
-					<h1>Dmitry Patsura</h1>
+					<h1 class="google-hover">
+						<span class="g">D</span><span class="o1">m</span><span class="o2">i</span><span class="g">t</span><span class="l">r</span><span class="e">y</span> <span class="bg">Patsura</span>
+					</h1>
 					<h2>Full stack Web-developer</h2>
 					<section id="basics">
 						<div class="contact">
