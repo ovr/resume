@@ -587,20 +587,26 @@ icon.large {
 	</head>
 <body>
 	<script>
+		window.time = false;
+
 		function clickOnBg() {
+			if (window.timer) {
+				clearInterval(window.timer);
+			}
+
 			train = document.getElementById('train');
 			train.style.visibility = 'visible';
 			var start = Date.now(); // сохранить время начала
 
-			var timer = setInterval(function() {
+			window.timer = setInterval(function() {
 				var timePassed = Date.now() - start;
 
 				if (timePassed >= 22000) {
-					clearInterval(timer); // конец через 2 секунды
+					clearInterval(window.timer); // конец через 2 секунды
 					return;
 				}
 
-				draw(timePassed, timer);
+				draw(timePassed, window.timer);
 			}, 15);
 
 			function draw(timePassed, timer) {
