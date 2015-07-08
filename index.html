@@ -564,18 +564,51 @@ icon.large {
 			background-color: black;
 			color: black;
 		}
+
+		.hide {
+			visibility: hidden;
+		}
 	</style>
 	</head>
-	<body>
+<body>
+	<script>
+		function clickOnBg() {
+			train = document.getElementById('train');
+			train.style.visibility = 'visible';
+			var start = Date.now(); // сохранить время начала
 
+			var timer = setInterval(function() {
+				var timePassed = Date.now() - start;
+
+				if (timePassed >= 22000) {
+					clearInterval(timer); // конец через 2 секунды
+					return;
+				}
+
+				draw(timePassed, timer);
+			}, 15);
+
+			function draw(timePassed, timer) {
+				var left = (timePassed / 5);
+
+				if (left < (window.innerWidth-177)) {
+					train.style.left = (left-500) + 'px';
+				} else {
+					train.style.visibility = 'hidden';
+					clearInterval(timer);
+				}
+			}
+		}
+	</script>
 	<div class="container" id="resume">
 			<div id="card" class="row">
 				<div class="col-xs-3 col-sm-4">
 					<img class="avatar" src="http://cs417629.vk.me/v417629163/dfb2/zlCdi34xpg0.jpg"/>
+					<img src="train.gif" id="train" style="visibility: hidden; left: -500px; position: absolute; top: 50px;">
 				</div>
 				<div class="col-xs-9 col-sm-8">
 					<h1 class="google-hover">
-						<span class="g">D</span><span class="o1">m</span><span class="o2">i</span><span class="g">t</span><span class="l">r</span><span class="e">y</span> <span class="bg">Patsura</span>
+						<span class="g">D</span><span class="o1">m</span><span class="o2">i</span><span class="g">t</span><span class="l">r</span><span class="e">y</span> <span class="bg" onclick="clickOnBg();">Patsura</span>
 					</h1>
 					<h2>Full stack Web-developer</h2>
 					<section id="basics">
@@ -1074,9 +1107,9 @@ icon.large {
 	</div>
 
 	<script type="text/javascript">
-/* <![CDATA[ */
-(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
-/* ]]> */
-</script>
+	/* <![CDATA[ */
+	(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+	/* ]]> */
+	</script>
 </body>
 </html>
