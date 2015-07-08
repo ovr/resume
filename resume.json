@@ -1,0 +1,231 @@
+{
+  "basics": {
+    "name": "Dmitry Patsura",
+    "label": "Full stack Web-developer",
+    "picture": "https://avatars3.githubusercontent.com/u/572096?v=3&s=460",
+    "email": "talk@dmtry.me",
+    "phone": "+7 (962) 283-7883",
+    "website": "http://dmtry.me/",
+    "summary": "Hey! I am full stack web developer Who loves computer science  and hipster technologies. Vagrant/Docker/AngularJS I could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "location": {
+      "postalCode": "675002",
+      "city": "Blagoveshenck",
+      "countryCode": "RU"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "ovr",
+        "url": "http://github.com/ovr"
+      },
+      {
+        "network": "Twitter",
+        "username": "ovrweb",
+        "url": "https://twitter.com/ovrweb"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "218499909",
+        "url": "https://www.linkedin.com/profile/view?id=218499909&trk=hp-identity-photo"
+      },
+      {
+        "network": "googleplus",
+        "username": "107677152861707550702",
+        "url": "https://plus.google.com/107677152861707550702/posts"
+      },
+      {
+        "network": "Upwork",
+        "username": "01f776a35170a10064",
+        "url": "https://www.upwork.com/users/~01f776a35170a10064"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Freelance Jobs NDA/Upwork",
+      "position": "Full stack Web developer",
+      "startDate": "2014",
+      "summary": "Difference project & skills.",
+      "highlights": [
+        "ElasticSearch",
+        "Redis for 4k sorted-collections",
+        "Phalcon 2/Zephir"
+      ]
+    },
+    {
+      "company": "Uniqhand.ru",
+      "position": "Full stack Web developer",
+      "website": "http://piedpiper.com",
+      "startDate": "2011",
+      "endDate": "2014",
+      "summary": "Uniqhand is a market/self-hosted platform builded for lovers of unusual things and their works.",
+      "highlights": [
+        "Frontend on Gulp/Bower/jQuery/Backbone/Underscore",
+        "Two backend(s) Zend Framework 1 + Doctrine 1 / Phalcon 1.3.x",
+        "SphinxSearch as SearchEngine",
+        "PerconaDB",
+        "Memcached"
+      ]
+    },
+    {
+      "company": "Artlime.ru",
+      "position": "Mid Full stack Web developer",
+      "website": "http://artlime.ru/",
+      "startDate": "2011",
+      "endDate": "2011",
+      "summary": "@todo.",
+      "highlights": [
+        "Start working on Uniqhand.ru"
+      ]
+    },
+    {
+      "company": "Amur.net",
+      "position": "Junior PHP backend developer",
+      "website": "http://amur.net/",
+      "startDate": "2010",
+      "endDate": "2011",
+      "summary": "Working in team on different projects.",
+      "highlights": [
+        "Working on new Project smth like Avito.ru",
+        "Caching projects/Optimizing performance"
+      ]
+    },
+    {
+      "company": "Lime Design Studio",
+      "position": "First Web/Dev position",
+      "website": "http://artlime.ru/",
+      "startDate": "2010",
+      "endDate": "2010",
+      "summary": "Starting to work in Wev-dev.",
+      "highlights": [
+        "Lerning PHP/HTML/CSS",
+        "Writting admin modules for markets"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PHPSA - Static Analysis for PHP",
+      "website": "https://github.com/ovr/phpsa",
+      "startDate": "2015-06-20",
+      "summary": "Global movement of free coding clubs for young people.",
+      "highlights": [
+        "Static analysis",
+        "Code metrics",
+        "Branch prediction"
+      ]
+    },
+    {
+      "organization": "Owl Framework",
+      "website": "https://github.com/owl-framework/owl",
+      "startDate": "2015-04-25",
+      "summary": "Owl is an extreme fast PHP framework powered by Zephir language and delivered as C-extension.",
+      "highlights": [
+        "Framework ;)",
+        "Performance boost"
+      ]
+    },
+    {
+      "organization": "Phalcon Module Skeleton",
+      "website": "https://github.com/ovr/phalcon-module-skeleton",
+      "startDate": "2015-05-25",
+      "summary": "This is a skeleton application written on Phalcon framework with performance boost. This project created to develop applications in an easy way.",
+      "highlights": [
+        "MVC ready!",
+        "Modules",
+        "API module",
+        "Admin module on backbone"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Blagoveshchensk Government University - BGPU",
+      "area": "Information Technology Mathematician - Programmer",
+      "studyType": "Bachelor of Engineering (B.Eng.)",
+      "startDate": "2012",
+      "endDate": "2016"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Сладкое будущее: Phalcon и Zephir",
+      "publisher": "CodeFest 2015",
+      "releaseDate": "2015-04-29",
+      "website": "http://2015.codefest.ru/lecture/1032",
+      "summary": "C момента появления первых расширений к PHP в виде си-фреймворков, они успели наделать немало шума. Поговорим о фреймворке, лидирующем в данном направлении — Phalcon. Затронем его прошлое, настоящее и будущее; плавно перейдем к обсуждению языка программирования Zephir. Затронeм как синтаксис языка, так и его «внутренности»: способы работы, алгоритмы анализа кода и методы, применяемые при оптимизациях. Проведем анализ данного решения: рассмотрим как производительность, так и другие важные качества, подведем итоги. Ну а завершим все это рассмотрением планов на будущее. "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "AngularJS 1.3.x",
+        "Gulp",
+        "Babel"
+      ]
+    },
+    {
+      "name": "Storage(s)",
+      "level": "Master",
+      "keywords": [
+          "MySQL",
+          "PgSQL",
+          "MongoDB",
+          "Redis",
+          "Memcached"
+      ]
+    },
+    {
+      "name": "PHP Libraries",
+      "level": "Master",
+      "keywords": [
+        "Composer",
+        "Zend framework 1",
+        "Phalcon 1/2",
+        "Docrtine 1/2 ORM/DBAL"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "Master",
+      "keywords": [
+        "PHP",
+        "Zephir",
+        "C/C++",
+        "JS"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Pre-intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Bodybuilding"
+    },
+    {
+      "name": "Frontend"
+    },
+    {
+      "name": "Hight-load"
+    }
+  ],
+  "references": [
+    {
+      "name": "Erlich Bachman",
+      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+    }
+  ]
+}
