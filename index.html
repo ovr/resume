@@ -560,13 +560,15 @@ icon.large {
 			color: green;
 		}
 
+		.google-hover .help-box {
+			visibility: hidden;
+		}
+		.google-hover:hover .help-box {
+			visibility: visible !important;
+		}
 		.google-hover:hover .bg {
 			background-color: black;
 			color: black;
-		}
-
-		.hide {
-			visibility: hidden;
 		}
 	</style>
 	</head>
@@ -609,6 +611,7 @@ icon.large {
 				<div class="col-xs-9 col-sm-8">
 					<h1 class="google-hover">
 						<span class="g">D</span><span class="o1">m</span><span class="o2">i</span><span class="g">t</span><span class="l">r</span><span class="e">y</span> <span class="bg" onclick="clickOnBg();">Patsura</span>
+						<span class="help-box"> <- click ;D</span>
 					</h1>
 					<h2>Full stack Web-developer</h2>
 					<section id="basics">
